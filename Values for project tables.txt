@@ -1,0 +1,75 @@
+//RESTAURANT//
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0001, "Beckta Dining & Wine", "New Canadian", "http://www.beckta.com/tabid/700/default.aspx#41354");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0002, "Giovanni's", "Italian", "http://giovannis-restaurant.com/");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0003, "Social", "French", "http://www.social.ca/");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0004, "Chez Le Thai", "Thai", "http://chezlethai.ca/");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0005, "Tosca Ristorante", "Italian", "http://www.tosca-ristorante.ca/");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0006, "MeNa", "French", "https://www.menarestaurant.com/");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0007, "Salt", "Canadian", "http://www.saltottawa.ca/");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0008, "Le Cafe", "Canadian", "https://nac-cna.ca/en/lecafe");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0009, "Play Food & Wine", "Tapas", "http://playfood.ca/Menus/tabid/4167/Default.aspx");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0010, "North & Navy", "Italian", "http://northandnavy.com/");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0011, "Amuse Kitchen", "Modern", "http://amusekitchen.ca/menudinner.html");
+
+INSERT INTO Restaurant(RestaurantID, Name, Type, URL) 
+VALUES (0012, "Riviera", "Canadian", "http://www.dineriviera.com/");
+
+//LOCATION
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES(1001, "2012-07-17", "Yenny Siekert", "8263729372", "150 Elgin St", '11:30', '22:00', 0001);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES(1002, "2011-08-03", "Athanaius Karl", "8634927362", "362 Preston St", '11:00', '22:00', 0002);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES(1003, "2006-03-13", "Kiana Mutton", "5372926353", "537 Sussex Dr", '11:30', '23:00', 0003);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES(1004, "2016-08-05", "Devorah Daube", "5263821234", "39 Laval St", '11:30', '22:00', 0004);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES(1005, "2011-11-18", "Katja Ali", "4268173927", "144 O'Connor St", '11:30', '22:00', 0005);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES(1006, "2009-01-05", "Selman Varela", "8725382719", "276 Preston St", '18:00', '23:00', 0006);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES (1007, "2005-04-22", "Kayly Nelson", "4273925372", "345 Preston St", '10:00', '20:30', 0007);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES (1008, "2004-05-08", "Otieno West", "6127472632", "1 Elgin St", '14:00', '21:00', 0008);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES (1009, "2000-06-14", "Gouyen Kartal", "6723923961", "1 York St", '13:00', '22:00', 0009);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES (1010, "2017-12-09", "Baha Orlando", "7239836483", "226 Nepean St", '17:00', '22:00', 0010);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES (1011, "2004-03-31", "Padrig Valentini", "9623923623", "500 Eagleson Rd", '17:00', '21:00', 0011);
+
+INSERT INTO Location(LocationID, first_open_date, manager_name, phone_number, street_address, hour_open, hour_close, RestaurantID)
+VALUES (1012, "2003-06-26", "Carina Knutson", "5829462936", "62 Sparks St", '14:30', '23:00', 0012);
