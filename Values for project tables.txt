@@ -73,3 +73,51 @@ VALUES (1011, "2004-03-31", "Padrig Valentini", "9623923623", "500 Eagleson Rd",
 
 INSERT INTO Location
 VALUES (1012, "2003-06-26", "Carina Knutson", "5829462936", "62 Sparks St", '14:30', '23:00', 0012);
+
+//RATER
+
+INSERT INTO Rater
+VALUES(000001,"VeronicaEBlunt@teleworm.us","Veronica E. Blunt", "2013-01-03", "BLOG", 4);
+
+INSERT INTO Rater
+VALUES(000002,"MonicaGCarrico@jourrapide.com","Monica G. Carrico", "2016-02-09","ONLINE",1);
+
+INSERT INTO Rater
+VALUES(000003,"StephenLShelton@armyspy.com","Stephen L. Shelton", "2011-12-20","CRITIC",4);
+
+INSERT INTO Rater
+VALUES(000004, "AnthonyLCurtis@teleworm.us","Anthony L. Curtis", "2006-02-12","ONLINE",3);
+
+INSERT INTO Rater
+VALUES(000005, "TimothySLevi@armyspy.com", "Timothy S. Levi", "2012-05-11","CRITIC",1);
+
+INSERT INTO Rater
+VALUES(000006, "SaraRValdez@rhyta.com", "Sara R. Valdez", "2007-09-22","ONLINE",2);
+
+INSERT INTO Rater
+VALUES(000007, "DebraHLibby@dayrep.com", "Debra H. Libby", "2011-12-2","BLOG",4);
+
+INSERT INTO Rater
+VALUES(000008, "CheriseMQuick@jourrapide.com", "Cherise M. Quick", "2010-02-11","CRITIC",1);
+
+INSERT INTO Rater
+VALUES(000009, "MarkVJohnson@teleworm.us", "Mark V. Johnson", "2008-02-15", "ONLINE",2);
+
+INSERT INTO Rater
+VALUES(000010, "JacobFMingo@rhyta.com", "Jacob F. Mingo", "2011-09-17","BLOG",3);
+
+INSERT INTO Rater
+VALUES(000011,"WilliamSWhite@rhyta.com", "William S. White","2006-02-16","CRITIC",5);
+
+INSERT INTO Rater
+VALUES(000012, "StephenMFuller@rhyta.com","Stephen M. Fuller","2012-11-20","ONLINE",2);
+
+INSERT INTO Rater
+VALUES(000013, "CristyERivera@rhyta.com","Cristy E. Rivera","2013-12-14","CRITIC",4);
+
+INSERT INTO Rater
+VALUES(000014, "JohnRHill@dayrep.com","John R. Hill","2014-11-11","BLOG",3);
+
+INSERT INTO Rater
+VALUES(000015, "JesseLCrawford@teleworm.us", "Jesse L. Crawford","2006-09-29", "ONLINE",5);
+
