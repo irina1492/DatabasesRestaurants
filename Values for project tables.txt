@@ -1,40 +1,40 @@
 //RESTAURANT//
 
 INSERT INTO Restaurant 
-VALUES (0001, "Beckta Dining & Wine", "New Canadian", "http://www.beckta.com/tabid/700/default.aspx#41354");
+VALUES (2001, "Beckta Dining & Wine", "New Canadian", "http://www.beckta.com/tabid/700/default.aspx#41354");
 
 INSERT INTO Restaurant 
-VALUES (0002, "Giovanni's", "Italian", "http://giovannis-restaurant.com/");
+VALUES (2002, "Giovanni's", "Italian", "http://giovannis-restaurant.com/");
 
 INSERT INTO Restaurant 
-VALUES (0003, "Social", "French", "http://www.social.ca/");
+VALUES (2003, "Social", "French", "http://www.social.ca/");
 
 INSERT INTO Restaurant
-VALUES (0004, "Chez Le Thai", "Thai", "http://chezlethai.ca/");
+VALUES (2004, "Chez Le Thai", "Thai", "http://chezlethai.ca/");
 
 INSERT INTO Restaurant
-VALUES (0005, "Tosca Ristorante", "Italian", "http://www.tosca-ristorante.ca/");
+VALUES (2005, "Tosca Ristorante", "Italian", "http://www.tosca-ristorante.ca/");
 
 INSERT INTO Restaurant 
-VALUES (0006, "MeNa", "French", "https://www.menarestaurant.com/");
+VALUES (2006, "MeNa", "French", "https://www.menarestaurant.com/");
 
 INSERT INTO Restaurant
-VALUES (0007, "Salt", "Canadian", "http://www.saltottawa.ca/");
+VALUES (2007, "Salt", "Canadian", "http://www.saltottawa.ca/");
 
 INSERT INTO Restaurant
-VALUES (0008, "Le Cafe", "Canadian", "https://nac-cna.ca/en/lecafe");
+VALUES (2008, "Le Cafe", "Canadian", "https://nac-cna.ca/en/lecafe");
 
 INSERT INTO Restaurant
-VALUES (0009, "Play Food & Wine", "Tapas", "http://playfood.ca/Menus/tabid/4167/Default.aspx");
+VALUES (2009, "Play Food & Wine", "Tapas", "http://playfood.ca/Menus/tabid/4167/Default.aspx");
 
 INSERT INTO Restaurant
-VALUES (0010, "North & Navy", "Italian", "http://northandnavy.com/");
+VALUES (2010, "North & Navy", "Italian", "http://northandnavy.com/");
 
 INSERT INTO Restaurant
-VALUES (0011, "Amuse Kitchen", "Modern", "http://amusekitchen.ca/menudinner.html");
+VALUES (2011, "Amuse Kitchen", "Modern", "http://amusekitchen.ca/menudinner.html");
 
 INSERT INTO Restaurant
-VALUES (0012, "Riviera", "Canadian", "http://www.dineriviera.com/");
+VALUES (2012, "Riviera", "Canadian", "http://www.dineriviera.com/");
 
 //LOCATION
 
@@ -77,47 +77,47 @@ VALUES (1012, "2003-06-26", "Carina Knutson", "5829462936", "62 Sparks St", '14:
 //RATER
 
 INSERT INTO Rater
-VALUES(000001,"VeronicaEBlunt@teleworm.us","Veronica E. Blunt", "2013-01-03", "BLOG", 4);
+VALUES(100001,"VeronicaEBlunt@teleworm.us","Veronica E. Blunt", "2013-01-03", "BLOG", 4);
 
 INSERT INTO Rater
-VALUES(000002,"MonicaGCarrico@jourrapide.com","Monica G. Carrico", "2016-02-09","ONLINE",1);
+VALUES(100002,"MonicaGCarrico@jourrapide.com","Monica G. Carrico", "2016-02-09","ONLINE",1);
 
 INSERT INTO Rater
-VALUES(000003,"StephenLShelton@armyspy.com","Stephen L. Shelton", "2011-12-20","CRITIC",4);
+VALUES(100003,"StephenLShelton@armyspy.com","Stephen L. Shelton", "2011-12-20","CRITIC",4);
 
 INSERT INTO Rater
-VALUES(000004, "AnthonyLCurtis@teleworm.us","Anthony L. Curtis", "2006-02-12","ONLINE",3);
+VALUES(100004, "AnthonyLCurtis@teleworm.us","Anthony L. Curtis", "2006-02-12","ONLINE",3);
 
 INSERT INTO Rater
-VALUES(000005, "TimothySLevi@armyspy.com", "Timothy S. Levi", "2012-05-11","CRITIC",1);
+VALUES(100005, "TimothySLevi@armyspy.com", "Timothy S. Levi", "2012-05-11","CRITIC",1);
 
 INSERT INTO Rater
-VALUES(000006, "SaraRValdez@rhyta.com", "Sara R. Valdez", "2007-09-22","ONLINE",2);
+VALUES(100006, "SaraRValdez@rhyta.com", "Sara R. Valdez", "2007-09-22","ONLINE",2);
 
 INSERT INTO Rater
-VALUES(000007, "DebraHLibby@dayrep.com", "Debra H. Libby", "2011-12-2","BLOG",4);
+VALUES(100007, "DebraHLibby@dayrep.com", "Debra H. Libby", "2011-12-2","BLOG",4);
 
 INSERT INTO Rater
-VALUES(000008, "CheriseMQuick@jourrapide.com", "Cherise M. Quick", "2010-02-11","CRITIC",1);
+VALUES(100008, "CheriseMQuick@jourrapide.com", "Cherise M. Quick", "2010-02-11","CRITIC",1);
 
 INSERT INTO Rater
-VALUES(000009, "MarkVJohnson@teleworm.us", "Mark V. Johnson", "2008-02-15", "ONLINE",2);
+VALUES(100009, "MarkVJohnson@teleworm.us", "Mark V. Johnson", "2008-02-15", "ONLINE",2);
 
 INSERT INTO Rater
-VALUES(000010, "JacobFMingo@rhyta.com", "Jacob F. Mingo", "2011-09-17","BLOG",3);
+VALUES(100010, "JacobFMingo@rhyta.com", "Jacob F. Mingo", "2011-09-17","BLOG",3);
 
 INSERT INTO Rater
-VALUES(000011,"WilliamSWhite@rhyta.com", "William S. White","2006-02-16","CRITIC",5);
+VALUES(100011,"WilliamSWhite@rhyta.com", "William S. White","2006-02-16","CRITIC",5);
 
 INSERT INTO Rater
-VALUES(000012, "StephenMFuller@rhyta.com","Stephen M. Fuller","2012-11-20","ONLINE",2);
+VALUES(100012, "StephenMFuller@rhyta.com","Stephen M. Fuller","2012-11-20","ONLINE",2);
 
 INSERT INTO Rater
-VALUES(000013, "CristyERivera@rhyta.com","Cristy E. Rivera","2013-12-14","CRITIC",4);
+VALUES(100013, "CristyERivera@rhyta.com","Cristy E. Rivera","2013-12-14","CRITIC",4);
 
 INSERT INTO Rater
-VALUES(000014, "JohnRHill@dayrep.com","John R. Hill","2014-11-11","BLOG",3);
+VALUES(100014, "JohnRHill@dayrep.com","John R. Hill","2014-11-11","BLOG",3);
 
 INSERT INTO Rater
-VALUES(000015, "JesseLCrawford@teleworm.us", "Jesse L. Crawford","2006-09-29", "ONLINE",5);
+VALUES(100015, "JesseLCrawford@teleworm.us", "Jesse L. Crawford","2006-09-29", "ONLINE",5);
 
