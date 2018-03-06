@@ -12,7 +12,7 @@ public class ratingsGen {
 		for (int i=0;i<RESTID.length;i++ ) {
 			for (int j=0;j<8 ;j++ ) {
 				out="INSERT INTO RATING \nVALUES (";
-				out= out+USERID[rand.nextInt(14)]+", \"20"+(rand.nextInt(8)+10)+"-"+(rand.nextInt(12)+1)+"-"+(rand.nextInt(27)+1)+"\", "+(rand.nextInt(5)+1)+", "+(rand.nextInt(5)+1)+", "+(rand.nextInt(5)+1)+", "+(rand.nextInt(5)+1)+", "+comment[rand.nextInt(3)]+", "+RESTID[i]+");";
+				out= out+USERID[rand.nextInt(14)]+", \'20"+(rand.nextInt(8)+10)+"-"+(rand.nextInt(12)+1)+"-"+(rand.nextInt(27)+1)+"\', "+(rand.nextInt(5)+1)+", "+(rand.nextInt(5)+1)+", "+(rand.nextInt(5)+1)+", "+(rand.nextInt(5)+1)+", \'"+comment[rand.nextInt(3)]+"\', "+RESTID[i]+");";
 				System.out.println(out);
 			}
 		}
