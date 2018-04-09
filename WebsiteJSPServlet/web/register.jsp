@@ -54,18 +54,18 @@
        <div class="row">
         <div class="col-md-8 order-md-1">
           <h4 class="mb-3">Enter Your Name</h4>
-          <form class="needs-validation" novalidate>
+          <form action = "Register" class="needs-validation" novalidate>
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">First name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <input type="text" class="form-control" id="firstName" name = "firstName" placeholder="" value="" required>
                 <div class="invalid-feedback">
                   Valid first name is required.
                 </div>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="lastName">Last name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <input type="text" class="form-control" id="lastName" name = "lastName" placeholder="" value="" required>
                 <div class="invalid-feedback">
                   Valid last name is required.
                 </div>
@@ -75,7 +75,7 @@
 
             <div class="mb-3">
               <label for="email">Email </label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <input type="email" class="form-control" id="email" name = "email" placeholder="you@example.com">
               <div class="invalid-feedback">
                 Please enter a valid email address.
               </div>
@@ -85,11 +85,11 @@
             <div class="row">
               <div class="col-md-5 mb-3">
                 <label for="country">Rater Type</label>
-                <select class="custom-select d-block w-100" id="country" required>
-                  <option value="">Choose...</option>
-                  <option>Blog</option>
-                  <option>Critic</option>
-                  <option>Online</option>
+                <select class="custom-select d-block w-100" id="type" name = "type" required>
+                  <option value="none">Choose...</option>
+                  <option value="blog" name = "blog">Blog</option>
+                  <option value="critic" name = "critic">Critic</option>
+                  <option value="online" name = "online">Online</option>
                 </select>
                 <div class="invalid-feedback">
                   Please select a valid country.
