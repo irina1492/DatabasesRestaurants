@@ -43,6 +43,9 @@
           <li class="nav-item">
             <a class="nav-link" href="register.html">Register</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="addResto.jsp">Add Restaraunt</a>
+          </li>
         </ul>
       </div>
     </nav>

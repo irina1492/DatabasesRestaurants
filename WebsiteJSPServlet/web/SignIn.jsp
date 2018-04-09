@@ -37,6 +37,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Browse Raters</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="addResto.jsp">Add Restaraunt</a>
+          </li>
         </ul>
       </div>
     </nav>
