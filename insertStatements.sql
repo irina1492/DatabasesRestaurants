@@ -1,3 +1,4 @@
+
 INSERT INTO Restaurant 
 VALUES (2001, 'Beckta Dining & Wine', 'New Canadian', 'http://www.beckta.com/tabid/700/default.aspx#41354');
 

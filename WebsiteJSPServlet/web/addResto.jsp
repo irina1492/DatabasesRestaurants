@@ -10,7 +10,7 @@
     <!-- Bootstrap -->
     <!--link href="css/bootstrap.min.css" rel="stylesheet"-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="signin.css" rel="stylesheet">
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +21,7 @@
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Salty Splitoon</a>
+      <a class="navbar-brand" href="#">Salty Spitoon</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,23 +46,81 @@
           <li class="nav-item">
             <a class="nav-link" href="addResto.jsp">Add Restaraunt</a>
           </li>
-
         </ul>
       </div>
     </nav>
-
-    <form class="form-signin">
-      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-      <P><br></P>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-      <P><br></P>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-    </form>
     <!--Carousell-->
-    
+    <main role="main">
+      <p><br><br><br><br><br></p>
+    <div class="container">
+       <div class="row">
+        
+        <div class="col-md-8 order-md-1">
+          <h4 class="mb-3">Add Restaraunt</h4>
+          <form class="needs-validation" novalidate>
+            
+              <div class="mb-3">
+                <label for="firstName">Name</label> 
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                
+              </div>
+            
+
+            
+
+            <div class="mb-3">
+              <label for="email">Web Page </label>
+              <input  class="form-control" id="email" >
+              
+            </div>
+
+            <div class="mb-3">
+              <label for="address">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address2">Manager </label>
+              <input type="text" class="form-control" id="address2">
+            </div>
+            <div class="mb-3">
+              <label for="address2">Phone NUmber </label>
+              <input type="text" class="form-control" id="address2">
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">Hour Opens</label> 
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="firstName">Hour Close</label> 
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                
+              </div>
+            </div>
+
+            
+           
+           
+
+            
+           
+            
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Add Restaraunt</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+      
+      </main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
