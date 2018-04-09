@@ -28,24 +28,25 @@
 
       <div class="collapse navbar-collapse" id="navbarsExample01">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+         <li class="nav-item active">
+            <a class="nav-link" href="Index.jsp">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="restaraunts.html">Browse Restaraunts</a>
+            <a class="nav-link" href="restaraunts.jsp">Browse Restaraunts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="raters.html">Browse Raters</a>
+            <a class="nav-link" href="raters.jsp">Browse Raters</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="SignIn.html">Sign in</a>
+            <a class="nav-link" href="SignIn.jsp">Sign in</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="register.html">Register</a>
+            <a class="nav-link" href="register.jsp">Register</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="addResto.jsp">Add Restaraunt</a>
           </li>
+
         </ul>
       </div>
     </nav>
